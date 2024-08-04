@@ -115,7 +115,7 @@ window.title("Password manager")
 window.config(padx=20, pady=20)
 
 canvas = Canvas(height=200, width=200)
-image = PhotoImage(file=r"C:\Users\karth\OneDrive\Documents\NITC\RIG\Python\pass word manager\logo.png")
+image = PhotoImage(file=r"logo.png")
 canvas.create_image(100, 100, image=image)
 canvas.grid(row=0, column=1)
 
